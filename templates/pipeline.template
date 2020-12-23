@@ -88,6 +88,7 @@ Resources:
                 - echo Entered the install phase...
                 - apt-get update -y
                 - sudo apt-get install zip gzip tar -y
+				- pip install --upgrade awscli
                 - pip3 install --upgrade pip
                 - ln -s /usr/local/bin/pip /usr/bin/pip
             pre_build:
