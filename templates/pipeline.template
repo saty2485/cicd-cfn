@@ -89,6 +89,7 @@ Resources:
                 - apt-get update -y
                 - sudo apt-get install zip gzip tar -y
                 - pip3 install --upgrade pip
+				- pip install --upgrade awscli
                 - ln -s /usr/local/bin/pip /usr/bin/pip
             pre_build:
               commands:
