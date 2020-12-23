@@ -85,10 +85,9 @@ Resources:
           phases:
             install:
               commands:
-                - echo Entered the install phase...
+                - echo Entered the install phase for CI-CD...
                 - apt-get update -y
                 - sudo apt-get install zip gzip tar -y
-				- pip install --upgrade awscli
                 - pip3 install --upgrade pip
                 - ln -s /usr/local/bin/pip /usr/bin/pip
             pre_build:
