@@ -1,15 +1,15 @@
 [
   {
     "ParameterKey": "GitHubUser",
-    "ParameterValue": "aws-quickstart"
+    "ParameterValue": "saty2485"
   },
   {
     "ParameterKey": "GitHubRepoName",
-    "ParameterValue": "github-repo-name"
+    "ParameterValue": "cicd-cfn"
   },
   {
     "ParameterKey": "SourceRepoBranch",
-    "ParameterValue": "develop"
+    "ParameterValue": "devo"
   },
   {
     "ParameterKey": "ReleaseBranch",
@@ -17,7 +17,7 @@
   },
   {
     "ParameterKey": "GitHubOAuthToken",
-    "ParameterValue": "github-token"
+    "ParameterValue": "c607fc43198d878571097b2d9c8eeba95e43671c"
   },
   {
     "ParameterKey": "QSS3BucketName",
